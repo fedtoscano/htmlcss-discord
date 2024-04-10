@@ -139,6 +139,10 @@ main>section .text>h2{
     margin-bottom: 1em;
 }
 
+main>section .text>p{
+    line-height: 2em;
+}
+
 main>footer{
     background-color: rgb(245, 245, 245);
     display: flex;
@@ -176,6 +180,10 @@ padding: 3rem 1rem;
 margin: 0 10rem
 }
 
+.language{
+    margin: 1em 0;
+}
+
 .language>span:first-of-type>img{
     width: 20px;
 }
@@ -183,6 +191,7 @@ margin: 0 10rem
 .languagel>span:nth-of-type(2){
     color: rgb(92, 123, 214);
 }
+
 .lang-social{
     margin-right: 2rem;
 }
